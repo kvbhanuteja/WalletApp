@@ -14,7 +14,7 @@ struct DetailView: View {
     @State var showExpensiveView: Bool = false
     var body: some View {
         VStack {
-            cardView()
+            CardView(card: selectedCard)
                 .matchedGeometryEffect(id: selectedCard.id, in: animation)
                 .frame(height: 250)
                 .onTapGesture {
@@ -27,6 +27,7 @@ struct DetailView: View {
                         }
                     }
                 }
+                .padding([.leading, .trailing], 10)
                 .zIndex(10)
             GeometryReader { proxy in
                 let height = proxy.size.height + 50
@@ -52,15 +53,6 @@ struct DetailView: View {
             withAnimation(.easeInOut.delay(0.1)) {
                 showExpensiveView = true
             }
-        }
-    }
-    
-    @ViewBuilder
-    func cardView() -> some View {
-        ZStack(alignment: .bottomLeading) {
-            Image(selectedCard.cardImage)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
         }
     }
 }

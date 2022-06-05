@@ -16,6 +16,7 @@
 		497B75D7284BC356003F15AD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B75D6284BC356003F15AD /* DetailView.swift */; };
 		497B75DB284BC3CA003F15AD /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B75DA284BC3CA003F15AD /* ExpenseView.swift */; };
 		497B75DD284BC405003F15AD /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B75DC284BC405003F15AD /* ExpenseModel.swift */; };
+		497B75DF284C963A003F15AD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B75DE284C963A003F15AD /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		497B75D6284BC356003F15AD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		497B75DA284BC3CA003F15AD /* ExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseView.swift; sourceTree = "<group>"; };
 		497B75DC284BC405003F15AD /* ExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModel.swift; sourceTree = "<group>"; };
+		497B75DE284C963A003F15AD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				497B75D4284BA2D4003F15AD /* Home.swift */,
 				497B75D6284BC356003F15AD /* DetailView.swift */,
 				497B75DA284BC3CA003F15AD /* ExpenseView.swift */,
+				497B75DE284C963A003F15AD /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				497B75D5284BA2D4003F15AD /* Home.swift in Sources */,
 				497B75D7284BC356003F15AD /* DetailView.swift in Sources */,
 				497B75D3284BA25A003F15AD /* CardModel.swift in Sources */,
+				497B75DF284C963A003F15AD /* CardView.swift in Sources */,
 				497B75DD284BC405003F15AD /* ExpenseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
